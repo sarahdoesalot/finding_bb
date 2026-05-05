@@ -1,4 +1,10 @@
-%%
+%%%%%%%%%%%%%%%%%%%%%%%% HEADER %%%%%%%%%%%%%%%%%%%%%%%%
+%Name: finding_bb.m
+%Writer: S. Marchand
+%Lab: CerCo - Toulouse, France
+%Last update: 05/04/2026
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 % Choose your file
 [filename, pathname] = uigetfile('*.nii', 'Select your .nii image');
 if isequal(filename,0)
